@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIExecutor", "UIExecutor\UIExecutor.csproj", "{38714F39-3136-4E4C-8A1D-B778866EFD3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIXApplication", "FIXApplication\FIXApplication.csproj", "{9E17C55A-7FE7-413B-AF9F-D0B2ACD94D5D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38714F39-3136-4E4C-8A1D-B778866EFD3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38714F39-3136-4E4C-8A1D-B778866EFD3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38714F39-3136-4E4C-8A1D-B778866EFD3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38714F39-3136-4E4C-8A1D-B778866EFD3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E17C55A-7FE7-413B-AF9F-D0B2ACD94D5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E17C55A-7FE7-413B-AF9F-D0B2ACD94D5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E17C55A-7FE7-413B-AF9F-D0B2ACD94D5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E17C55A-7FE7-413B-AF9F-D0B2ACD94D5D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
