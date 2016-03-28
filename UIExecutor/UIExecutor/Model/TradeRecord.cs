@@ -23,6 +23,7 @@ namespace UIExecutor.Model
         private string _Price = "";
         private string _symbol = "";
         private string _side = "";
+        private string _execute = "";
 
         public string TradeID
         {
@@ -58,6 +59,12 @@ namespace UIExecutor.Model
         {
             get { return _side; }
             set { _side = value; OnPropertyChanged("Side"); }
+        }
+
+        public string Execute
+        {
+            get { return _execute; }
+            set { _execute = value; OnPropertyChanged("Execute"); }
         }
     }
 }

@@ -48,6 +48,13 @@
             <ListView.View>
                 <GridView>
                     <GridView.Columns>
+                        <GridViewColumn Header="Execute">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Name="BtnExecute" Content="Execute" Click="BtnExecute_Click" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
                         <GridViewColumn Header="TradeID" DisplayMemberBinding="{Binding Path=TradeID}"/>
                         <GridViewColumn Header="Quantity" DisplayMemberBinding="{Binding Path=Quantity}"/>
                         <GridViewColumn Header="Symbol" DisplayMemberBinding="{Binding Path=Symbol}"/>

@@ -38,5 +38,11 @@ namespace UIExecutor.View
             e.CanExecute = (lvMessages.Items.Count > 0) && (lvMessages.SelectedItem != null);
             e.Handled = true;
         }
+
+        private void BtnExecute_Click(object sender, RoutedEventArgs e)
+        {
+            var tradeRecord = (TradeRecord)((Button)sender).DataContext;
+            Clipboard.SetText(tradeRecord.TradeID);
+        }
     }
 }

@@ -26,6 +26,7 @@ namespace UIExecutor
             StartupEventArgs e,
             ICustomFixStrategy strategy)
         {
+            Trace.Listeners.Add(new TextWriterTraceListener("quickfix_executor.log", "logListener"));
             Trace.WriteLine("Application started.");
 
             // FIX app settings and related
@@ -68,6 +69,8 @@ namespace UIExecutor
             try
             {
                 Trace.WriteLine("Application exit.");
+                Trace.Flush();
+
                 _qfapp.Stop();
             }
             catch (Exception ex)
